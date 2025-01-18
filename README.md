@@ -5,5 +5,8 @@ Attention is all you need! Implement it in Mathematica.
 Using the Mathematica programming language, several functions have been defined to prove inequalities through the use of definite integrals. The implemented functions include:
 1. `PiLinear[p_, q_] (* p * Pi + q ≥ 0 *)`
 2. `ELinear[p_, q_] (* p * E + q ≥ 0 *)`
-3. `PiPowerLinear[n_, p_] (* Pi^n + p ≥ 0 *)`
-4. `EPowerLinear[q_, p_] (* E^q + p ≥ 0 *)`
+3. `PiPowerLinear[q_, n_, p_] (* q Pi^n + p ≥ 0 *)`
+4. `EPowerLinear[s_, q_, p_] (* s E^q + p ≥ 0 *)`
+5. `SinLinear[s_, q_, p_] (* s Sin[q] + p ≥ 0 *)`
+6. `CosLinear[s_, q_, p_] (* s Cos[q] + p ≥ 0 *)`
+6. `TanLinear[s_, q_, p_] (* s Tan[q] + p ≥ 0 *)`

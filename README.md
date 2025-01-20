@@ -9,4 +9,4 @@ Using the Mathematica programming language, several functions have been defined 
 4. `EPowerLinear[s_, q_, p_] (* s E^q + p ≥ 0 *)`
 5. `SinLinear[s_, q_, p_] (* s Sin[q] + p ≥ 0 *)`
 6. `CosLinear[s_, q_, p_] (* s Cos[q] + p ≥ 0 *)`
-6. `TanLinear[s_, q_, p_] (* s Tan[q] + p ≥ 0 *)`
+6. `TanLinear[s_, q_, p_] (* s Tan[q] + p ≥ 0 (Cos[q] > 0) *)`
